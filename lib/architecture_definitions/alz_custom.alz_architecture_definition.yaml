@@ -1,0 +1,109 @@
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  - "sovereign_l1_controls_custom"
+  - "amba_root"
+  "display_name": "SLZ Azure Landing Zones TF Managment Only Single Region"
+  "exists": true
+  "id": "slz-tf-mgmt-only-single3"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  - "amba_platform"
+  "display_name": "Platform"
+  "exists": false
+  "id": "slz-platform-tf-mgmt-only-single3"
+  "parent_id": "slz-tf-mgmt-only-single3"
+- "archetypes":
+  - "landing_zones_custom"
+  - "amba_landing_zones"
+  "display_name": "Landing Zones"
+  "exists": false
+  "id": "slz-landingzones-tf-mgmt-only-single3"
+  "parent_id": "slz-tf-mgmt-only-single3"
+- "archetypes":
+  - "public_custom"
+  "display_name": "Public"
+  "exists": false
+  "id": "slz-public-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "corp_custom"
+  - "sovereign_l2_controls_custom"
+  "display_name": "Corp"
+  "exists": false
+  "id": "slz-corp-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "online_custom"
+  - "sovereign_l2_controls_custom"
+  "display_name": "Online"
+  "exists": false
+  "id": "slz-online-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "local_custom"
+  "display_name": "Local"
+  "exists": false
+  "id": "slz-local-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "corp_custom"
+  - "sovereign_l2_controls_custom"
+  - "sovereign_l3_controls_custom"
+  "display_name": "Confidential Corp"
+  "exists": false
+  "id": "slz-confidential-corp-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "online_custom"
+  - "sovereign_l2_controls_custom"
+  - "sovereign_l3_controls_custom"
+  "display_name": "Confidential Online"
+  "exists": false
+  "id": "slz-confidential-online-tf-mgmt-only-single3"
+  "parent_id": "slz-landingzones-tf-mgmt-only-single3"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "Sandbox"
+  "exists": false
+  "id": "slz-sandbox-tf-mgmt-only-single3"
+  "parent_id": "slz-tf-mgmt-only-single3"
+- "archetypes":
+  - "security_custom"
+  - "sovereign_l2_controls_custom"
+  "display_name": "Security"
+  "exists": false
+  "id": "slz-security-tf-mgmt-only-single3"
+  "parent_id": "slz-platform-tf-mgmt-only-single3"
+- "archetypes":
+  - "management_custom"
+  - "sovereign_l2_controls_custom"
+  - "amba_management"
+  "display_name": "Management"
+  "exists": false
+  "id": "slz-management-tf-mgmt-only-single3"
+  "parent_id": "slz-platform-tf-mgmt-only-single3"
+- "archetypes":
+  - "connectivity_custom"
+  - "sovereign_l2_controls_custom"
+  - "amba_connectivity"
+  "display_name": "Connectivity"
+  "exists": false
+  "id": "slz-connectivity-tf-mgmt-only-single3"
+  "parent_id": "slz-platform-tf-mgmt-only-single3"
+- "archetypes":
+  - "identity_custom"
+  - "sovereign_l2_controls_custom"
+  - "amba_identity"
+  "display_name": "Identity"
+  "exists": false
+  "id": "slz-identity-tf-mgmt-only-single3"
+  "parent_id": "slz-platform-tf-mgmt-only-single3"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "Decommissioned"
+  "exists": false
+  "id": "slz-decommissioned-tf-mgmt-only-single3"
+  "parent_id": "slz-tf-mgmt-only-single3"
+"name": "alz_custom"
